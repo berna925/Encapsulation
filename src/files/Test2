@@ -1,0 +1,1 @@
+1 - An object hides its internal data from code that’s outside the class,   for instance variable giving private access modifier then making getter and setter method to access this modifier  2 - we can't     3 - getter method  ex:  public String getname( ) {  return name;    }  ,    4 - setter method ex: public void setName( String name ){  this.name = name } ,

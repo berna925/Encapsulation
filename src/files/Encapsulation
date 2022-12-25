@@ -1,0 +1,6 @@
+1. Encapsulation => an object hides its internal data from the codes that's outside of the class. We can encapsulate the data by giving 'private' access modifier to it.
+2. We can not.
+3. Read only data => The purpose is only reaching the data without making any changes. Only the instance variables are subject for this. A special public instance "getter method" is used. ex :
+    public String getPassword(){return password ;}
+4. Write only data => We can modify the data while protecting it. Another special method "setter" is used. This time, parameter is required.ex:
+    public void setPassword(String Password){ this.password=password;  }
